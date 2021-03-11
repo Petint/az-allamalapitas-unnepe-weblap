@@ -1,0 +1,12 @@
+#fejlec{
+    background-color: gray;
+    background-image: url("../placeholder/placeholder-1-e.png");
+    height: 300pt;
+}
+
+#fejlec ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 30pt;
+}
