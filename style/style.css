@@ -1,12 +1,22 @@
 #fejlec{
     background-color: gray;
     background-image: url("../placeholder/placeholder-1-e.png");
-    height: 300pt;
+    background-repeat:no-repeat;
+    height: 600pt;
 }
 
-#fejlec ul {
+#fejlec :is(ul, li) {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    margin-left: 30pt;
+    padding-left: 10pt;
+    padding-right:10pt;
 }
+body {
+    color: goldenrod;
+}
+.aktiv-link{
+    background-color:lime;
+    
+}
+
