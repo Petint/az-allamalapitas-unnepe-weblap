@@ -1,0 +1,37 @@
+/*idiglenes színek*/
+:root{
+    --betuSzin:black;
+    --hatterSzin:gray;
+    --keretSzin:black;
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.tortenet{
+    color: var(--betuSzin);
+    display:inline-block;
+    background-color:var(--hatterSzin);
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right:10px;
+    font-size: 20px;
+    border: 5px;
+    border-color: var(--keretSzin);
+    
+}
+
+
+
+.tortenet img{
+    height: 200px;
+    width: 200px;
+    float: left;
+    border-radius: 50%!important;
+}
