@@ -21,8 +21,14 @@ body {
     color: goldenrod;
     margin: 0px;
 }
-.aktiv-link{
+.aktiv{
     background-color:green;
+    color: gold;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+#fejlec :visited{
     color: gold;
     padding: 16px;
     font-size: 16px;
