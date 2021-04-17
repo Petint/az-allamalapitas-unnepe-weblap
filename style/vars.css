@@ -1,6 +1,13 @@
 :root{
-    --betuSzin:#767c77;
-    --hatterSzin:#fbe2e5;
-    --keretSzin:#9cada4;
-    --hatter:#fabea7;
+    /*Általános színek*/
+    --betuSzin:#616161;
+    --hatterSzin:#c4e3cb;
+    --keretSzin:#8aae92;
+    --hatter:#f4f9f4;
+    /*fejléc színek*/
+    --fejlec-hatter:#595238;
+    --fejlec-gomb-alap:#2bb2bb;
+    --fejlec-gomb-lebeg:#87d4c5;
+    --fejlec-gomb-aktiv:#87d4c5;
+    --fejlec-nav-hatter:#1dd3bd;
   }

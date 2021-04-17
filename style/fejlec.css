@@ -1,14 +1,18 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 #fejlec{
-    background-color: var(--hatter);
-    background-image: url("../placeholder/placeholder-1-e.png");
-    background-repeat:no-repeat;
-    height: 45%;
+    background-color: var(--fejlec-hatter);
+    background-image: url("../kepek/hatter.jpg");
+    background-repeat:repeat-x;
 }
 
 #nav{
-background-color: gray;
-background: opacity 75%;
+background-color:var(--fejlec-nav-hatter);
+opacity: 90%;
+}
+
+#focim{
+  color: #ddd;
+  text-align: center;
 }
 
 #fejlec :is(ul, li) {
@@ -21,9 +25,10 @@ background: opacity 75%;
 body {
     color: var(--betuSzin);
     margin: 0px;
+    font-family: 'Roboto', sans-serif;
 }
 .aktiv{
-    background-color:var(--hatterSzin);
+    background-color:var(--fejlec-gomb-aktiv);
     color: var(--betuSzin);
     padding: 16px;
     font-size: 16px;
@@ -37,7 +42,7 @@ body {
 }
 
 .dropbtn {
-    background-color: var(--hatter);
+    background-color: var(--fejlec-gomb-alap);
     color: var(--betuSzin);
     padding: 16px;
     font-size: 16px;
@@ -45,7 +50,7 @@ body {
   }
 
   .dropbtn :hover{
-    background-color: var(--hatterSzin);
+    background-color: var(--fejlec-gomb-lebeg);
     color: var(--betuSzin);
     padding: 16px;
     font-size: 16px;
