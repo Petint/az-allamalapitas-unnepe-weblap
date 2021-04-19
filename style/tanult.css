@@ -1,3 +1,12 @@
+body{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: var(--hatter);
+
+}
+
 .sor{
     color: var(--betuSzin);
     display:flex;
@@ -8,11 +17,11 @@
     margin-right:30px;
     font-size: 20px;
     border: 3px solid var(--keretSzin);
-    justify-content: stretch;
 }
 
 .anyag{
-    border: 3px solid var(--keretSzin);
+    display: flexbox;
+    border-right: 2px solid var(--keretSzin);
+    flex-direction: column;
     text-align: center;
-    display:block;
 }
