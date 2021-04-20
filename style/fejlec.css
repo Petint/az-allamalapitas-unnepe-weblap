@@ -34,6 +34,9 @@ body {
     font-size: 16px;
     border: none;
 }
+
+.aktiv a {text-decoration: none;}
+
 #fejlec :visited{
     color: var(--betuSzin);
     padding: 16px;
