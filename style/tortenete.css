@@ -9,11 +9,6 @@ body{
     height: 100%;
     margin: 30px;
 }
-.ad{
-    max-width: 300px;
-    max-height: 300px;
-    margin-top: 30px;
-}
 .container{
     text-align: center;
     color: var(--betuSzin);
@@ -26,7 +21,10 @@ body{
     border: 3px solid var(--keretSzin);
 }
 
-.container p::first-letter{font-size: 200%}
-#asd{
-    display:flex
+#szentistvan{
+    border: 3px solid var(--keretSzin);
+    margin-top: 30px;
+    max-width: 600px;
 }
+
+.container p::first-letter{font-size: 200%}
