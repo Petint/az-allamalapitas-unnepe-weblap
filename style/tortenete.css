@@ -27,4 +27,9 @@ body{
     max-width: 600px;
 }
 
+.container p{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 .container p::first-letter{font-size: 200%}

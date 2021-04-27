@@ -26,7 +26,6 @@ body {
     color: var(--betuSzin);
     margin: 0px;
     font-family: 'Roboto', sans-serif;
-    font-size: 12px;
 }
 .aktiv{
     background-color:var(--fejlec-gomb-aktiv);
